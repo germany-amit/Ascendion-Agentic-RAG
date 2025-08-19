@@ -1,3 +1,8 @@
+__pycache__/
+*.pyc
+data/*.gguf
+logs/
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
