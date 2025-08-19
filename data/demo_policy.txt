@@ -1,0 +1,4 @@
+Company Policy Alpha (v1.0)
+- Customer data must not be shared outside tenant boundary.
+- PII (IDs, card numbers) must be redacted before export.
+- Critical incidents require response within 1 business day.
