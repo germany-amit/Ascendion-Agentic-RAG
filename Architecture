@@ -1,0 +1,11 @@
+User → Streamlit UI
+       │
+       ▼
+Guardrails (input) ──▶ Router
+       │                  │
+       │                  ├─► Agent (planner) ── tools: {retriever, calculator, url_reader}
+       │                  │                         │
+       │                  └─► Direct RAG chain ─────┘
+       │
+       ▼
+Guardrails (output) → Observability (logs, metrics, feedback) → Eval dataset
